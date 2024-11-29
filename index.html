@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="SUNPODCAST - A modern web-based podcast player">
+    <title>SUNPODCAST</title>
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <div class="stars" id="stars"></div>
+    
+    <div class="logo-container">
+        <div class="logo-image-container"></div>
+        <div class="logo">SUNPODCAST</div>
+    </div>
+
+    <div class="container">
+        <div class="blog-list" id="blogList"></div>
+    </div>
+
+    <div class="player-container" id="playerContainer">
+        <div class="now-playing" id="nowPlaying"></div>
+        <div class="player-controls">
+            <button class="play-btn" id="playBtn">
+                <i class="fas fa-play" id="playIcon"></i>
+            </button>
+            <div class="progress-container" id="progressContainer">
+                <div class="progress-bar" id="progressBar"></div>
+            </div>
+            <div class="time-info" id="timeInfo">0:00 / 0:00</div>
+        </div>
+    </div>
+
+    <script src="./js/main.js"></script>
+</body>
+</html> 
